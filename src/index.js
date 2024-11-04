@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FBC from './FBC';
+import CBC from './CBC';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <CBC value = "Gayathree"/>
+    <FBC topic = "React"/>
   </React.StrictMode>
 );
 
